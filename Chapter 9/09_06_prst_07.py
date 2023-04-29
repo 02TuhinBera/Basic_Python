@@ -8,5 +8,4 @@ with open("log.txt") as f:
         if 'python' in content:
             print(content)
             print(f"Ye, python is present on the line {i}")
-            print(i)
         i+=1
