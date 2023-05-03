@@ -14,5 +14,5 @@ remote1 = Remote()
 player1 = player()
 
 if(remote1.isLeftPressed()):
-    player1.moveLeft() 
+    player1.moveLeft()  
         
