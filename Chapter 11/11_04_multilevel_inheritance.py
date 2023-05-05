@@ -18,6 +18,7 @@ class Programmer(Employee):
     
     def  getSalary(self):
         print("No salary to programmer")
+       
         
 p = Person()
 p.takeBreath()
@@ -25,5 +26,5 @@ e = Employee()
 e.takeBreath()
 pr = Programmer()
 pr.takeBreath()     # It will use the latest function..(nearest parent class)
-print(pr.country)
+# print(pr.country)
 print(pr.company)
