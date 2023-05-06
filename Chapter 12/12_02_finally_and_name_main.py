@@ -14,4 +14,7 @@ def function():
         
     # print("I will always be executed")   # if we are return from a fuction, this line will not always executed..
 
-function()
+print(__name__)
+if __name__ == '__main__':
+    function()
+    print("main")
